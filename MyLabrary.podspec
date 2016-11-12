@@ -2,6 +2,8 @@
 Pod::Spec.new do |s|
   s.name         = "MyLabrary"
   s.version      = "0.0.4"
+  s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.8'
   s.summary      = "Pod files for MCX Basic."
   s.homepage     = "https://github.com/Hepohob/ForSetPod"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
